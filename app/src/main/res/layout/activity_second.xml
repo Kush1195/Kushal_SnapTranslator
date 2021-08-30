@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg_main"
+    android:weightSum="10.0">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        android:layout_weight="6.5"
+        android:paddingTop="@dimen/_15sdp"
+        android:gravity="center">
+
+        <VideoView
+            android:id="@+id/videoView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="0.0dip"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/_15sdp"
+        android:layout_weight="0.3">
+
+        <ImageView
+            android:id="@+id/view1"
+            android:layout_width="30.0px"
+            android:layout_height="30.0px"
+            android:layout_marginLeft="@dimen/_5sdp"
+            android:src="@drawable/current_dot" />
+
+        <ImageView
+            android:id="@+id/view2"
+            android:layout_width="30.0px"
+            android:layout_height="30.0px"
+            android:layout_marginLeft="@dimen/_5sdp"
+            android:src="@drawable/next_previous_dot" />
+
+        <ImageView
+            android:id="@+id/view3"
+            android:layout_width="30.0px"
+            android:layout_height="30.0px"
+            android:layout_marginLeft="@dimen/_5sdp"
+            android:src="@drawable/next_previous_dot" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        android:layout_weight="1.2"
+        android:gravity="center|bottom">
+
+        <ImageView
+            android:id="@+id/txt_permission"
+            android:layout_width="909px"
+            android:layout_height="109px"
+            android:src="@drawable/accstext" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        android:layout_weight="2.0"
+        android:paddingBottom="@dimen/_10sdp"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/btn_next_draw"
+            android:layout_width="900.0px"
+            android:layout_height="150.0px"
+            android:layout_gravity="center"
+            android:background="@drawable/btn_begin_btns_long"
+            android:gravity="center"
+            android:text="Next"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/_15sdp"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/btn_drawOverApp"
+            android:layout_width="679.0px"
+            android:layout_height="138.0px"
+            android:layout_gravity="center"
+            android:src="@drawable/floating_state_pressed"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/btn_next_acc"
+            android:layout_width="900.0px"
+            android:layout_height="150.0px"
+            android:background="@drawable/btn_begin_btns_long"
+            android:gravity="center"
+            android:text="NEXT"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/_15sdp"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/btn_accessbility"
+            android:layout_width="563.0px"
+            android:layout_height="138.0px"
+            android:src="@drawable/accessibility_state_pressed" />
+
+    </LinearLayout>
+
+</LinearLayout>

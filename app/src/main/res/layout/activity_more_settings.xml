@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_color">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginBottom="@dimen/_60sdp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_43sdp"
+            android:background="@drawable/header"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.2"
+                android:gravity="center">
+
+                <ImageView
+                    android:id="@+id/back"
+                    android:layout_width="58px"
+                    android:layout_height="50px"
+                    android:src="@drawable/back_state_pressed" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fontFamily="@font/roboto_regular"
+                    android:gravity="center"
+                    android:text="Setting"
+                    android:textColor="@android:color/white"
+                    android:textSize="@dimen/_14sdp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.2" />
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/lay_copy"
+                android:layout_width="1000px"
+                android:layout_height="150px"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="25px"
+                android:src="@drawable/copy_to_translate_button" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="@dimen/_25sdp"
+                android:paddingTop="@dimen/_5sdp">
+
+                <ImageView
+                    android:id="@+id/ic_on"
+                    android:layout_width="100px"
+                    android:layout_height="56px"
+                    android:src="@drawable/on_button" />
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+        <ImageView
+            android:id="@+id/lay_share"
+            android:layout_width="1000px"
+            android:layout_height="150px"
+            android:layout_gravity="center"
+            android:layout_marginTop="25px"
+            android:orientation="horizontal"
+            android:src="@drawable/share_state_pressed" />
+
+        <ImageView
+            android:id="@+id/lay_pp"
+            android:layout_width="1000px"
+            android:layout_height="150px"
+            android:layout_gravity="center"
+            android:layout_marginTop="25px"
+            android:orientation="horizontal"
+            android:src="@drawable/pp_state_pressed" />
+
+        <ImageView
+            android:id="@+id/lay_rate"
+            android:layout_width="1000px"
+            android:layout_height="150px"
+            android:layout_gravity="center"
+            android:layout_marginTop="25px"
+            android:orientation="horizontal"
+            android:src="@drawable/abt_state_pressed" />
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/ad_view_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_alignParentBottom="true" />
+
+</RelativeLayout>

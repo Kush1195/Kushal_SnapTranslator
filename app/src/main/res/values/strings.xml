@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Snap Translate</string>
+    <string name="description">To Read Content Of Screen</string>
+
+    <string name="privacy_link">file:///android_asset/Moth slipper Privacy Policy.html</string>
+    <string name="admob_fullscreen_id">ca-app-pub-3940256099942544/1033173712</string>
+    <string name="app_open_ad_id">ca-app-pub-3940256099942544/3419835294</string>
+    <string name="admob_banner_id">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="admob_native_id">ca-app-pub-3940256099942544/2247696110</string>
+    <string name="admob_reward_id">ca-app-pub-3940256099942544/5224354917</string>
+    <string name="admob_publisher_id">pub-0123456789012345</string>
+    <string name="YOUR_ADMOB_APP_ID">ca-app-pub-3940256099942544~3347511713</string>
+
+</resources>

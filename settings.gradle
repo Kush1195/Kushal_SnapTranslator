@@ -1,0 +1,4 @@
+include ':consent-library'
+include ':consentsdk'
+include ':app'
+rootProject.name = "Kushal_SnapTranslator"
